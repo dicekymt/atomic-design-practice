@@ -21,12 +21,12 @@ const user = {
 function App() {
   return (
     <>
-    <HeaderOnly>
-      <PrimaryButton>Primary</PrimaryButton>
-      <SecondaryButton>Secondary</SecondaryButton>
-      <SearchInput />
-      <UserCard user={user} />
-    </HeaderOnly>
+      <HeaderOnly>
+        <PrimaryButton>Primary</PrimaryButton>
+        <SecondaryButton>Secondary</SecondaryButton>
+        <SearchInput />
+        <UserCard user={user} />
+      </HeaderOnly>
     </>
   );
 }
