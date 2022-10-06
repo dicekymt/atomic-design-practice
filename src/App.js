@@ -1,9 +1,15 @@
 import './App.css';
 import { Router } from "./router/Router"
+import { UserProvider} from "./providers/UserProvieder"
+import {RecoilRoot} from 'recoil';
 
 function App() {
   return (
-    <Router />
+    <RecoilRoot>
+      <UserProvider>
+        <Router />
+      </UserProvider>
+    </RecoilRoot>
   );
 }
 
